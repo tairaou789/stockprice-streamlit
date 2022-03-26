@@ -6,6 +6,13 @@ import time
 
 st.title('Streamlit 超入門')
 """
+## ★ローカル環境で動作させる方法
+```python
+streamlit run main.py -- ターミナルで入力
+```
+
+"""
+"""
 ## ★まず、ライブラリのインポート
 ```python
 import streamlit as st (Webアプリケーションのフレームワーク)
