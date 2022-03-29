@@ -7,6 +7,7 @@ import time
 
 def test():
     st.title('Streamlit 株価チェックアプリ')
+    st.write(
     """
     ## ★「yfinance」をインポート
     ### Yahoo! Financeから株価情報を取得するためのAPIです
@@ -60,3 +61,5 @@ def test():
         D:\sys\anaconda3\env\book3\Lib\site-packages\matplotlib\mpl-data\fonts\ttf
     ```
     """
+
+    )
