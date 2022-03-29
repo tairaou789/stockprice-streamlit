@@ -4,7 +4,7 @@ import pandas as pd
 from PIL import Image
 import time
 
-def greeting1():
+def page1():
     st.title('Streamlit 超入門')
     """
     ## ★ローカル環境で動作させる方法
@@ -291,13 +291,15 @@ def greeting1():
             time.sleep(0.1)
         st.write('Done')
 
-def greeting2():
+def page2():
     st.title('またまたこんにちは, 世界！！')
     st.write('ねこはとてもかわいい')
 
+genre = st.radio(
+     "Python学習",
+     ('Tutorial', 'StockPrice'))
 
-if st.sidebar.button("Button1"):
-   greeting1()
-
-if st.sidebar.button("Button2"):
-   greeting2()
+if genre == 'Tutorial':
+   page1()
+if genre == 'StockPrice':
+   page2()
