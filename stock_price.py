@@ -53,5 +53,4 @@ def test():
         D:\sys\anaconda3\env\book3\Lib\site-packages\matplotlib\mpl-data\fonts\ttf
     ```
     """
-    link = '[Chemesim](https://nw.tsuda.ac.jp/lec/python/book3/ch04/ch4-05.html)'
-    st.sidebar.markdown(link, unsafe_allow_html=True)
+    
