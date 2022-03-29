@@ -4,6 +4,13 @@ import pandas as pd
 from PIL import Image
 import time
 
+"""
+## ★「yfinance」をインポート
+### Yahoo! Financeから株価情報を取得するためのAPIです
+```python
+!pip3 install yfinance -- jupyterで入力
+```
+"""
 def test():
     st.title('Streamlit 株価チェックアプリ')
     """
