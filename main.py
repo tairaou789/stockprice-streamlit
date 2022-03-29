@@ -295,7 +295,7 @@ def page2():
     st.title('またまたこんにちは, 世界！！')
     st.write('ねこはとてもかわいい')
 
-genre = st.radio(
+genre = st.sidebar.radio(
      "Python学習",
      ('Tutorial', 'StockPrice'))
 
