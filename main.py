@@ -293,7 +293,7 @@ def page1():
         st.write('Done')
 
 def page2():
-    stock_price.py
+    stock_price.test()
 
 genre = st.sidebar.radio(
      "Python学習",
