@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 import time
+import stock_price
 
 def page1():
     st.title('Streamlit 超入門')
@@ -292,8 +293,7 @@ def page1():
         st.write('Done')
 
 def page2():
-    st.title('またまたこんにちは, 世界！！')
-    st.write('ねこはとてもかわいい')
+    stock_price.test()
 
 genre = st.sidebar.radio(
      "Python学習",
