@@ -15,13 +15,6 @@ def test():
     !pip3 install yfinance -- jupyterで入力
     ```
     """
-    """
-    ## ★「yfinance」をインポート
-    ### Yahoo! Financeから株価情報を取得するためのAPIです
-    ```python
-    !pip3 install yfinance -- jupyterで入力
-    ```
-    """
 
     """
     ## ★ほかに必要なライブラリ等
